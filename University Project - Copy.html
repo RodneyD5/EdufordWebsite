@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="University Project.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="University Project.html">HOME</a></li>
+                    <li><a href="University Project - Copy.html">ABOUT</a></li>
+                    <li><a href="University Project - Course.html">COURSES & FACILITIES</a></li>
+                    <li><a href="University Project - Blog.html.html">BLOG</a></li>
+                    <li><a href="University Project - Copy - Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" class="fa fa-times" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+
+    <!----About us content---->
+
+    <section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the worlds Largest University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo
+                ,rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+                Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                 Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, 
+                 viverra quis, feugiat a, tellus. Phaselluincidunt. Duis leo.
+                Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, 
+                leo eget bibendum sodales, augue velit cursus nunc,</p>
+            <a href="" class="hero-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/about.jpg">
+        </div>
+            
+    
+    </div>
+
+      
+
+<!----Footer---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The about us section</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i>  by Easy Tutorials</p>
+
+</section>
+
+
+
+
+
+
+    <!----Javascript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
